@@ -1,20 +1,14 @@
-import { useState } from "react";
+import React  from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { useForm } from '@formspree/react';
+import Resume from "../assets/img/Bipul.pdf"
 
 
 export const Contact = () => {
  
-
-
-
-
-
-
-
 
 
   return (
@@ -35,6 +29,10 @@ export const Contact = () => {
                   <h2 className=" capitalize">Get In Touch or You can contact me on my socials</h2><br/>
                   <h3>Email id :-   kb84101@gmail.com</h3><br/>
                   <h3> Mobile No :-  7992312363</h3>
+                  <a href={Resume}
+                  download="Bipul"
+                  target="_blank">
+                  <button>Resume</button></a>
                 </div>}
             </TrackVisibility>
           </Col>
