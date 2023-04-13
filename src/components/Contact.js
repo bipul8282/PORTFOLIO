@@ -28,7 +28,7 @@ export const Contact = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2 className=" capitalize">Get In Touch or You can contact me on my socials</h2><br/>
                   <h3>Email id :-   kb84101@gmail.com</h3><br/>
-                  <h3> Mobile No :-  7992312363</h3>
+                  <h3> Mobile No :-  7992312363</h3><br/>
                   <a href={Resume}
                   download="Bipul"
                   target="_blank">
